@@ -13,11 +13,11 @@
   },
   "dependencies": {
     "@repo/ui": "workspace:*",
-    "lucide-react": "^0.555.0",
-    "next": "^16.0.6",
+    "lucide-react": "^0.556.0",
+    "next": "^16.0.7",
     "next-themes": "^0.4.6",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:^",
