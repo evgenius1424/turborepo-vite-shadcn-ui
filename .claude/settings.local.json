@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm lint:*)",
+      "Bash(pnpm run lint:*)",
+      "Bash(npx eslint:*)",
+      "Bash(npx next lint:*)",
+      "Bash(npx next:*)",
+      "Bash(pnpm install:*)",
+      "Read(//Users/evgenius1424/tmp/my-nextjs-2026/**)",
+      "Bash(turbo lint:*)",
+      "Bash(turbo build)",
+      "Bash(git rm:*)",
+      "Bash(find:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

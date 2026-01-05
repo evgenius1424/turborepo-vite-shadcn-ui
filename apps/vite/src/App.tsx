@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Button } from "@repo/ui/components/button";
+import { Button } from "@workspace/ui/components/button";
 
-import "@repo/ui/styles/globals.css";
+import "@workspace/ui/styles/globals.css";
 
 function App() {
   const [count, setCount] = useState(0);

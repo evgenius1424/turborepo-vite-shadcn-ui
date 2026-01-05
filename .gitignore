@@ -17,6 +17,7 @@ coverage
 
 # Turbo
 .turbo
+**/*turbo-lint.log
 
 # Vercel
 .vercel
@@ -27,6 +28,11 @@ out/
 build
 dist
 
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
 
 # Debug
 npm-debug.log*

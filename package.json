@@ -2,24 +2,22 @@
   "name": "turborepo-vite-shadcn-ui",
   "version": "0.0.1",
   "private": true,
-  "license": "MIT",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "volta:install": "curl https://get.volta.sh | bash",
-    "ui": "pnpm --filter @repo/ui ui"
+    "ui": "pnpm --filter @workspace/ui ui"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
-    "eslint": "^9.39.2",
+    "@workspace/eslint-config": "workspace:*",
+    "@workspace/typescript-config": "workspace:*",
     "prettier": "^3.7.4",
-    "turbo": "^2.7.3",
-    "typescript": "5.9.3"
+    "turbo": "^2.6.3",
+    "typescript": "5.7.3"
   },
-  "packageManager": "pnpm@10.11.0",
+  "packageManager": "pnpm@10.4.1",
   "engines": {
     "node": ">=20"
   }
