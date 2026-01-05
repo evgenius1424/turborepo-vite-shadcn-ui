@@ -3,14 +3,28 @@
 [![Build](https://github.com/evgenius1424/turborepo-vite-shadcn-ui/actions/workflows/build.yml/badge.svg)](https://github.com/evgenius1424/turborepo-vite-shadcn-ui/actions/workflows/build.yml)
 [![Update Dependencies](https://github.com/evgenius1424/turborepo-vite-shadcn-ui/actions/workflows/update-dependencies.yml/badge.svg)](https://github.com/evgenius1424/turborepo-vite-shadcn-ui/actions/workflows/update-dependencies.yml)
 
+## ✨ 2026 Structure & Standards
+
+**This repository is fully updated to follow 2026 conventions and best practices:**
+
+- **🏗️ Modern Architecture**: Both NextJS and Vite apps follow latest 2026 structure standards
+- **📦 @workspace Namespace**: Migrated from `@repo/*` to `@workspace/*` for better organization
+- **⚡ ESLint Flat Config**: Using the new flat configuration system for consistent linting
+- **🔧 TypeScript ES2022**: Updated to ES2022 target with latest compiler options
+- **🎨 Centralized shadcn/ui**: Improved component sharing with centralized configuration
+- **🚀 Latest Dependencies**: All packages updated to 2026 versions
+- **📏 Consistent Standards**: Unified structure across all apps and packages
+
+Both applications maintain full compatibility with shared `@workspace/ui` components while following the latest industry standards.
+
 This repository is a monorepo starter kit utilizing [Turborepo](https://turbo.build/repo) for managing multiple
 applications with shared [shadcn/ui](https://github.com/shadcn-ui/ui) components. It includes two applications (`vite`
 and `nextjs`) in the `apps`
-directory, both of which use shared components from the `@repo/ui` package.
+directory, both of which use shared components from the `@workspace/ui` package.
 
 The goal of this repository is to provide up-to-date starters for vite-react and Next.js, and probably something else.
 
-### Prerequisitesvite
+### Prerequisites
 
 Make sure you have the following installed:
 
