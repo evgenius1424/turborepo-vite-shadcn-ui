@@ -44,7 +44,11 @@ jobs:
         run: pnpm install --frozen-lockfile --strict-peer-dependencies
 
       - name: Update dependencies
-        run: pnpm up -r --latest
+        # typescript is pinned below 7.x: TypeScript 7 restructured its package exports
+        # (require('typescript') now returns only { version }, the compiler API moved to
+        # ./unstable/* subpaths), which breaks Next.js's TypeScript integration. Remove this
+        # exclusion once Next.js ships stable support for TypeScript 7.
+        run: pnpm up -r --latest '*' '!typescript'
 
       - name: Build
         run: pnpm build
