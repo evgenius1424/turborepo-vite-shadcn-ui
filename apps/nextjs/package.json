@@ -13,8 +13,8 @@
   },
   "dependencies": {
     "@workspace/ui": "workspace:*",
-    "lucide-react": "^1.31.0",
-    "next": "16.3.1",
+    "lucide-react": "^1.33.0",
+    "next": "16.3.2",
     "next-themes": "^0.4.6",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
@@ -23,10 +23,10 @@
     "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "^26.2.0",
     "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.4",
+    "@types/react-dom": "^19.2.5",
     "@workspace/eslint-config": "workspace:^",
     "@workspace/typescript-config": "workspace:*",
-    "eslint": "^10.8.1",
+    "eslint": "^10.9.0",
     "typescript": "^6.0.3"
   }
 }
