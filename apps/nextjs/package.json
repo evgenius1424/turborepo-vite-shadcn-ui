@@ -13,20 +13,20 @@
   },
   "dependencies": {
     "@workspace/ui": "workspace:*",
-    "lucide-react": "^1.33.0",
-    "next": "16.3.2",
+    "lucide-react": "^1.37.0",
+    "next": "16.3.3",
     "next-themes": "^0.4.6",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",
-    "@types/node": "^26.2.0",
+    "@types/node": "^26.4.0",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.5",
     "@workspace/eslint-config": "workspace:^",
     "@workspace/typescript-config": "workspace:*",
-    "eslint": "^10.9.0",
+    "eslint": "^10.9.1",
     "typescript": "^6.0.3"
   }
 }
